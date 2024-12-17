@@ -1,7 +1,7 @@
 List of all the awesome people involved in the KeepShare project.
 
 **Maintainers:**
-- Sharelax <@sharelax>
+- Sharelax   <@sharelax>
 - Carl <carl24685@gmail.com>
 
 ------
