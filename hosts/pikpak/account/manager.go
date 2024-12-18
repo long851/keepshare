@@ -430,6 +430,11 @@ func (m *Manager) inviteSubAccountByInvitetoken(ctx context.Context, task *asynq
 			err = fmt.Errorf("get invite token err: %w", err)
 			continue
 		}
+		if res == nil {
+			err = fmt.Errorf("invite token is nil")
+			continue
+		}
+
 		if res.InviteToken == "" {
 			err = fmt.Errorf("invite token is null")
 			continue
