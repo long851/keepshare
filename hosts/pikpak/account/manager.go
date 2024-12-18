@@ -431,7 +431,7 @@ func (m *Manager) inviteSubAccountByInvitetoken(ctx context.Context, task *asynq
 			continue
 		}
 		if res == nil {
-			err = fmt.Errorf("invite token is nil")
+			err = fmt.Errorf("invite token res is nil")
 			continue
 		}
 
